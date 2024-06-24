@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Property</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="link"><a href="code.html">home</a></li>
+                <li class="link"><a href="available.html">available</a></li>
+                <li class="link"><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="booking-form">
+            <h2>Book a Property</h2>
+            <form>
+                <label for="property">Select a Property:</label>
+                <select id="property" name="property">
+                    <option value="">Select a property</option>
+                    <option value="property1">Property 1</option>
+                    <option value="property2">Property 2</option>
+                    <option value="property3">Property 3</option>
+                    <option value="property4">property 4</option>
+                    <option value="property5">property 5</option>
+                </select>
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin">
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkout">
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" max="10">
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
